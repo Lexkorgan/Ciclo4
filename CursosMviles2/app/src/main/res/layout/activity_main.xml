@@ -22,8 +22,8 @@
             android:src="@drawable/unicaldas" />
 
         <ImageView
-            android:layout_width="500px"
-            android:layout_height="200px"
+            android:layout_width="800px"
+            android:layout_height="500px"
             android:src="@drawable/logo_mision" />
     </LinearLayout>
 
