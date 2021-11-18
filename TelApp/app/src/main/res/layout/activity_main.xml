@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
 <LinearLayout
-=======
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
->>>>>>> ee0228ab362463dc25aa6df7a7d29e976226e048
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,9 +8,6 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-
-<<<<<<< HEAD
-♠
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -57,7 +51,7 @@
         <Button
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:text="INICIAR"
+            android:text="INICIAR"/>
     </LinearLayout>
 
         <LinearLayout
@@ -73,7 +67,6 @@
           android:text="Olvide mi contraseña"
           android:layout_margin="10dp" />
 
-
             <Button
                 android:layout_width="170dp"
                 android:layout_height="wrap_content"
@@ -84,12 +77,12 @@
 
     </LinearLayout>
 
-=======
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
->>>>>>> ee0228ab362463dc25aa6df7a7d29e976226e048
+
 
 
 </LinearLayout>
