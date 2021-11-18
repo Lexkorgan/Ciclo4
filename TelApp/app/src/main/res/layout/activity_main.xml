@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -7,49 +8,20 @@
     tools:context=".MainActivity">
 
 
+♠
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_margin="16dp"
-        android:gravity="center">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Username"
-            android:textColor="@color/black"
-            android:textSize="20sp"/>
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="PaquitoWels8"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Password"
-            android:textColor="@color/black"
-            android:layout_marginTop="25dp"
-            android:textSize="20sp"/>
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="*****"
-            />
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
 
-        <Button
-            android:layout_width="100dp"
-            android:layout_height="40dp"
-            android:layout_margin="25dp"
-            android:text="LOGIN"/>
-
-    </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:src="@drawable/logota"/>
 
 
 
 
-
-
+</LinearLayout>
 
 </LinearLayout>
