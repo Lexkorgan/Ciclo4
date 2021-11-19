@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".Registrar_Ventas_Activity">
+
+
+    <TextView
+        android:id="@+id/textViewDocCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese el No de Documento del Cliente:"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextDocCliente"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="123456789"
+            android:textSize="30dp"
+            android:inputType="number" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_menu_search" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewSra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sr(a): "
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textViewNombreCliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Jhon Gutierrez"
+            android:textSize="34sp" />
+
+    </LinearLayout>
+    <Spinner
+    android:id="@+id/mSpinnerTipo"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:autofillHints="Seleccione El Tipo"
+    android:scrollbarSize="24dp"
+    />
+
+    <Spinner
+        android:id="@+id/mSpinnerTela"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:autofillHints="Seleccione La Tela"
+        android:scrollbarSize="24dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewAncho"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ancho: "
+            android:textSize="30sp" />
+        <EditText
+            android:id="@+id/editTextAncho"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="123"
+            android:inputType="number" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewAlto"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Alto: "
+            android:textSize="30sp" />
+        <EditText
+            android:id="@+id/editTextAlto"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="123"
+            android:inputType="number" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewPago"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Forma de Pago: "
+            android:textSize="30sp" />
+
+        <Spinner
+            android:id="@+id/mSpinnerPago"
+            android:layout_width="120dp"
+            android:layout_height="46dp"
+            android:autofillHints="Seleccione La Tela"
+            android:scrollbarSize="24dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewCuotas"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="No Cuotas: "
+            android:textSize="30sp" />
+        <EditText
+            android:id="@+id/editTextPago"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="123"
+            android:inputType="number" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="El area Total de la Cortina es:"
+        android:textSize="24dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textViewPrintArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="18 Mtr2"
+        android:textSize="30dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textViewPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="El Precio de la Cortina es:"
+        android:textSize="24dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textViewPrintPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="$ 1.850.000"
+        android:textSize="30dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textViewValCuota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="El valor de la Cuota es:"
+        android:textSize="24dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textViewPrintValCuota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="$ 350.000"
+        android:textSize="30dp"
+        android:gravity="center"/>
+
+
+
+</LinearLayout>

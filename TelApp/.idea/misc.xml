@@ -4,7 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Documentos/AppsAndroid/TelApp/TelApp/app/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
+        <entry key="..\:/Documentos/AppsAndroid/TelApp/TelApp/app/src/main/res/layout/activity_menu_vendedor.xml" value="0.1" />
+        <entry key="..\:/Documentos/AppsAndroid/TelApp/TelApp/app/src/main/res/layout/activity_reg_ventas.xml" value="0.1" />
+        <entry key="..\:/Documentos/AppsAndroid/TelApp/TelApp/app/src/main/res/layout/activity_registrar_ventas.xml" value="0.1" />
+        <entry key="..\:/Documentos/AppsAndroid/TelApp/TelApp/app/src/main/res/layout/content_menu_vendedor.xml" value="0.1" />
         <entry key="..\:/Documentos/AppsAndroid/TelApp/TelApp/app/src/main/res/layout/hola_mundo.xml" value="0.12771739130434784" />
+        <entry key="..\:/Documentos/AppsAndroid/TelApp/TelApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.1" />
         <entry key="..\:/Users/LEON/Documents/Ciclo4/TelApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/LEON/Documents/TelApp/app/src/main/res/layout/activity_main.xml" value="0.31197916666666664" />
       </map>
