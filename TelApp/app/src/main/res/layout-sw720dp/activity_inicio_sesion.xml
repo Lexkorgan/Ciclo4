@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="900dp"
+        android:layout_height="700dp"
+        android:orientation="horizontal"
+        android:layout_margin="16dp"
+        android:gravity="center" >
+
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:src="@drawable/logota"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre de usuario"
+            android:textColor="@color/black"
+            android:textSize="50sp" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="email@domain.com"
+            android:textSize="50dp"
+            android:backgroundTint="#BF360C"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Contraseña"
+            android:textSize="50sp" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="**********"
+            android:textSize="50sp"
+            android:backgroundTint="#BF360C"/>
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="INICIAR"
+            android:textColor="@color/black"
+            style="?attr/materialButtonOutlinedStyle"
+            app:strokeColor="#BF360C"
+            app:cornerRadius="20dp" >
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="20dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Olvide mi contraseña"
+          android:textColor="@color/black"
+          android:textSize="30sp"
+          android:layout_margin="0dp"
+          style="?attr/materialButtonOutlinedStyle"
+          app:strokeColor="#BF360C"
+
+          />
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Registrar vendedor"
+           android:textColor="@color/black"
+           android:textSize="30sp"
+           style="?attr/materialButtonOutlinedStyle"
+           app:strokeColor="#BF360C"
+           android:layout_margin="10dp"
+
+           />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
