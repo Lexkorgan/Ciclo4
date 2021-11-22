@@ -6,26 +6,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_color_land"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="370dp"
-        android:layout_height="200dp"
-        android:orientation="horizontal"
+        android:layout_width="250dp"
+        android:layout_height="301dp"
         android:layout_margin="16dp"
-        android:gravity="center" >
+        android:gravity="center"
+        android:orientation="horizontal">
 
-
-    <ImageView
-        android:layout_width="400dp"
-        android:layout_height="230dp"
-        android:src="@drawable/logota"/>
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="230dp"
+            android:src="@drawable/logota" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
         android:orientation="vertical"
         android:layout_margin="16dp"
         android:gravity="center"
@@ -63,8 +62,8 @@
     </LinearLayout>
 
     <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_margin="20dp"
             android:orientation="horizontal"
             android:gravity="center">

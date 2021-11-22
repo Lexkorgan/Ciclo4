@@ -10,22 +10,22 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="370dp"
-        android:layout_height="200dp"
+        android:layout_width="900dp"
+        android:layout_height="700dp"
         android:orientation="horizontal"
         android:layout_margin="16dp"
         android:gravity="center" >
 
 
     <ImageView
-        android:layout_width="400dp"
-        android:layout_height="230dp"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
         android:src="@drawable/logota"/>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="500dp"
         android:orientation="vertical"
         android:layout_margin="16dp"
         android:gravity="center"
@@ -35,22 +35,24 @@
             android:layout_height="wrap_content"
             android:text="Nombre de usuario"
             android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="50sp" />
         <EditText
-            android:layout_width="200dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="email@domain.com"
+            android:textSize="50dp"
             android:backgroundTint="#BF360C"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:text="Contraseña"
-            android:textSize="20sp" />
+            android:textSize="50sp" />
         <EditText
-            android:layout_width="200dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="**********"
+            android:textSize="50sp"
             android:backgroundTint="#BF360C"/>
         <Button
             android:layout_width="120dp"
@@ -64,27 +66,29 @@
 
     <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="200dp"
             android:layout_margin="20dp"
             android:orientation="horizontal"
             android:gravity="center">
 
       <Button
-          android:layout_width="170dp"
+          android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:text="Olvide mi contraseña"
           android:textColor="@color/black"
-          android:layout_margin="10dp"
+          android:textSize="30sp"
+          android:layout_margin="0dp"
           style="?attr/materialButtonOutlinedStyle"
           app:strokeColor="#BF360C"
 
           />
 
        <Button
-           android:layout_width="170dp"
+           android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:text="Registrar vendedor"
            android:textColor="@color/black"
+           android:textSize="30sp"
            style="?attr/materialButtonOutlinedStyle"
            app:strokeColor="#BF360C"
            android:layout_margin="10dp"
